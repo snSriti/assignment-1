@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 90px;
+  }
+.nav-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* banner */
+.banner-area{
+    background: url(../img/Hero-bg.png);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
