@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -7,6 +9,43 @@
     margin: 0 auto;
     padding: 0 90px;
   }
+  .btn {
+    color: rgb(255, 255, 255) !important;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    display: inline-block;
+    padding: 20px 20px;
+font-family: Azeret Mono;
+line-height: 23px;
+  }
+  .section-title{
+    text-align: center;
+    width: 852px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+  }
+  .section-title h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+margin-bottom: 24px;
+  }
+  .section-title p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  /* nav */
 .nav-body{
     display: flex;
     justify-content: space-between;
@@ -19,4 +58,71 @@
     background-position: center;
     background-repeat: no-repeat;
     text-align: center;
+width: 1440px;
+height: 652px;
+top: 131px;
+bottom: 4462px;
+margin-bottom: 74px;
+}
+.banner-area img{
+width: 240.28px;
+height: 240px;
+margin-bottom: 32px;
+}
+.banner-area h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.banner-area p{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 32px;
+}
+.banner-detail{
+    width: 998px;
+    height: 309px;
+    margin: 0 auto;
+}
+/* why */
+.first-why{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.why-details{
+    width: 477px;
+}
+.why-details h1{
+    color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+}
+.why-details p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+/* ins */
+.vdo{
+    width: 1076px;
+height: 550px;
 }
