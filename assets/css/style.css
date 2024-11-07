@@ -4,13 +4,20 @@
     margin: 0;
     padding: 0;
 }
+h1,p,a{
+    font-family: Azeret Mono;
+}
+a{
+    text-decoration: none;
+}
+
 .container {
     max-width: 1140px;
     margin: 0 auto;
     padding: 0 90px;
   }
   .btn {
-    color: rgb(255, 255, 255) !important;
+    
     font-size: 20px;
     font-weight: 600;
     text-align: center;
@@ -18,8 +25,21 @@
     background: rgb(13, 19, 33);
     display: inline-block;
     padding: 20px 20px;
-font-family: Azeret Mono;
 line-height: 23px;
+  }
+  .btn-transparent
+  {
+    background: transparent;
+    box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+border-radius: 8px;
+opacity: 0.8;
+  }
+  .btn a{
+    color: rgb(255, 255, 255);
+  }
+  .btn-transparent a{
+    color: rgb(13, 19, 33);
   }
   .section-title{
     text-align: center;
@@ -50,6 +70,7 @@ margin-bottom: 24px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 48px 0 48px 0;
 }
 /* banner */
 .banner-area{
@@ -125,7 +146,6 @@ text-align: left;
 .vdo{
     width: 1076px;
 height: 550px;
-margin-bottom: 151px;
 }
 /* target */
 .target-box{
@@ -145,6 +165,8 @@ font-weight: 800;
 line-height: 36px;
 letter-spacing: 0%;
 text-align: left;
+margin-bottom: 16px;
+margin-top: 24px;
 }
 .target-body p{
     color: rgb(13, 19, 33);
@@ -179,7 +201,16 @@ height: 313px;
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 20%;
+    top: 20%;   
+}
+.section-title h1{
+    color: rgb(255, 255, 255);
+}
+.section-title p{
+    color: rgb(255, 255, 255);
+}
+.sub{
+    color: rgb(13, 19, 33) !important;
 }
 .help{
 width: 548px;
@@ -187,7 +218,7 @@ display: flex;
 flex-direction: row;
 justify-content: flex-start;
 align-items: center;
-padding: 19px 20px 19px 20px;
+padding: 22px 20px 20px 22px;
 margin: 0px 10px;
 border-radius: 8px;
 background: rgb(255, 255, 255);
@@ -196,4 +227,23 @@ border: 1px solid rgba(13, 19, 33, 0.15);
 .submit-btn{
     background: rgb(255, 255, 255);
     color: rgb(13, 19, 33) !important;
+}
+/* footer */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 118px;
+    margin-bottom: 36px;
+}
+.footer p{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+}
+.footer img{
+margin-right: 10px;
 }
