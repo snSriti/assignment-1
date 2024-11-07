@@ -45,11 +45,10 @@ opacity: 0.8;
     text-align: center;
     width: 852px;
     margin: 0 auto;
-    margin-bottom: 48px;
+    margin-bottom: 48px !important;
   }
   .section-title h1{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
 font-size: 32px;
 font-weight: 800;
 line-height: 37px;
@@ -92,7 +91,6 @@ margin-bottom: 32px;
 }
 .banner-area h1{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 48px;
     font-weight: 800;
     line-height: 68px;
@@ -102,7 +100,6 @@ margin-bottom: 32px;
 }
 .banner-area p{
     color: rgb(13, 19, 33);
-font-family: Azeret Mono;
 font-size: 16px;
 font-weight: 400;
 line-height: 26px;
@@ -146,6 +143,7 @@ text-align: left;
 .vdo{
     width: 1076px;
 height: 550px;
+margin-bottom: 183px;
 }
 /* target */
 .target-box{
@@ -170,7 +168,6 @@ margin-top: 24px;
 }
 .target-body p{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -203,10 +200,10 @@ height: 313px;
     align-items: center;
     top: 20%;   
 }
-.section-title h1{
+.support h1{
     color: rgb(255, 255, 255);
 }
-.section-title p{
+.support p{
     color: rgb(255, 255, 255);
 }
 .sub{
@@ -237,7 +234,6 @@ border: 1px solid rgba(13, 19, 33, 0.15);
 }
 .footer p{
     color: rgb(13, 19, 33);
-font-family: Azeret Mono;
 font-size: 20px;
 font-weight: 600;
 line-height: 23px;
